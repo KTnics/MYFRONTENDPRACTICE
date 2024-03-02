@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-bottom: 10px double red ;
+    border-top: 10px double red;
+    border-left: 10px double orangered;
+    border-right: 10px double orangered;
+    padding: 100px,50px;
+    margin: 100px,50px,25px,0px; 
+
+}

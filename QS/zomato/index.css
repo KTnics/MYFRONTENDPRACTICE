@@ -1,0 +1,116 @@
+*{
+    margin:0% ;
+    padding: 0%;
+}
+.nv{
+    background-image: url(./Images/heroSectionBackground.png);
+
+height: 400px;
+width: 100%;
+
+}
+.nv nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+
+}
+.nv .logo{
+    text-align: center;
+}
+.nv .inp{
+    text-align: center;
+}
+.nv nav .right{
+    display: flex;
+}
+nav p{
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+.nv logo img{
+    width: 45%;
+    margin-top: 66px;
+}
+.nv .text{
+    text-align: center;
+    color: white;
+    margin-top: 22px;
+    font-size: 20px;
+}
+.nv .inp input{
+    width: 600px;
+    margin-top: 22px;
+    border-radius: 10px;
+    height: 10px;
+    font-size: 50px;
+    padding: 22px;
+    border: none;
+    outline: none;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.card .crd img{
+    width: 220px;
+    height: 322px;
+    border-radius: 6px;
+    margin-top: 55px;
+
+}
+.coll .txt{
+    margin-left: 34px;
+    margin-top: 44px;
+    padding: 33px;
+}
+.col .rest{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.rest img{
+    width: 22%;
+   border-radius: 7px;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+    background-color: pink;
+    margin-top: 66px;
+    
+}
+.app img{
+    width: 37%;
+}
+.btn h1{
+    margin-left: 44px;
+    margin-top: 44px;
+    padding: 33px;
+
+    
+}
+.btn button{
+    width: 900px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 22px;
+    margin-left: 170px;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: gray;
+    margin-top: 44px;
+    padding: 44px;
+}

@@ -1,0 +1,17 @@
+section{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card{
+    height: auto;
+    width: 50%;
+    color: white;
+    background-color: palegoldenrod;
+    border: 10px black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

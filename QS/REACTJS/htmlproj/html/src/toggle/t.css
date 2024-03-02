@@ -1,0 +1,161 @@
+
+
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 55px;
+    width: 100%;
+   
+}
+#N{
+    width: 100%;
+}
+.nb{
+
+   
+    margin: auto;
+    border: 1px solid white;
+}
+#header{
+    width: 100%;
+}
+.my{
+    display: flex;
+}
+.myb{
+    margin: auto;
+    border: 5px solid black;
+    height: 500px;
+    width: 350px;
+}
+
+.myb1{
+    margin: auto;
+    border: 5px solid black;
+    height: 500px;
+    width: 350px;
+    
+}
+.fitem{
+    margin: auto;
+    border-bottom: 5px solid white;
+    border-top: 5px solid black;
+}
+
+@media  screen  and (max-width:500px)  {
+    .H{
+        display: none;
+    }
+    .myb{
+        display: none;
+    }
+    .myb1{
+        height: auto;
+    }
+    
+    #hb2{
+        display: none;
+    }
+    .container{
+        display: none;
+    }
+
+}
+@media (min-width:501px) and (max-width:1010px) {
+     
+    .myb{
+        display: none;
+    }
+  .h-block{
+    display: none;
+  }
+    .container {
+        position: relative;
+      }
+      
+    
+      .text-block {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    
+}
+
+
+@media (min-width:1012px) and (max-width:1550px) {
+    
+    .container{
+        display: none;
+    }
+    .myb1{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+  .toggle {
+    position : relative ;
+    display : inline-block;
+    width : 100px;
+    height : 50px;
+    background-color: #cecece;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: gray;
+    margin-left: 3px;
+    left: 0.5px;
+    transition: all 0.5s;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.checkbox:checked + .toggle::after {
+    left : 49px; 
+}
+.checkbox:checked + .toggle {
+    background-color: black;
+}           
+.checkbox { 
+    display : none;
+}
+.toggle{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+/* dark light mode */
+
+.det {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#header{
+    display: flex;
+}
+#hb2{
+    padding-top: 400px;
+    text-align: center;
+    border: 2px solid white;
+}

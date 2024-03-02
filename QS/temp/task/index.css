@@ -1,0 +1,35 @@
+section{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: bisque;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+div{
+    height: 300px;
+    width: 300px;
+}
+#box1,#box3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#box2{
+    text-align: center;
+    
+}
+@media  screen and (max-width:830px) {
+    section{
+        height:auto;
+    }
+    #box1,#box3{
+        display: flex;
+    }
+    
+}

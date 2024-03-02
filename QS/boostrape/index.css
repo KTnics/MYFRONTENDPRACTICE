@@ -1,0 +1,109 @@
+*{
+    width: auto;
+   
+}
+
+
+section h2{
+    padding-top: 10px;
+}
+section{
+    background-color: #0F0617;
+    color: white;
+}
+.collapse{
+    padding-right: 90px;
+}
+li{
+    padding: 20px;
+}
+form{
+    padding-right: 20px;
+}
+#nav-btn{
+    padding: 10px;
+}
+button{
+    padding: 10px;
+}
+.carousel-caption{
+ padding-right:750px;
+}
+
+.MultiCarousel { 
+  float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; 
+}
+ .MultiCarousel .MultiCarousel-inner { 
+      transition: 1s ease all; float: left; 
+    }
+.MultiCarousel .MultiCarousel-inner .item { 
+  float: left;
+padding: 10px;
+gap: 10px;
+
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+     text-align: center; padding:10px; margin:10px; background:none; color:#666;
+    }
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+     position:absolute; border-radius:50%;top:calc(50% - 20px);
+     }
+.MultiCarousel .leftLst { left:0; }
+.MultiCarousel .rightLst { right:0; }
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+     pointer-events: none; background:none; }
+.container{
+       background-color: #0F0617;
+ }
+
+ #section2{
+  background-color: #0F0617;
+  
+ }       
+.img{
+  padding: 10px;
+}
+
+h4{
+    text-align: right;
+    padding-right: 70px;
+    color: violet;
+}
+
+.footer-img{
+    text-align: center;
+}
+.footer-h{
+    display: flex;
+}
+#cn{
+   padding-left: 210px;
+}
+i{
+    padding: 5px;
+    border-radius: 50%;
+}
+#last{
+    display: flex;
+   gap: 10px;
+
+}
+#one{
+    display: flex;
+    text-align: left;
+}
+.row{
+    justify-content: space-around;
+    text-align: left;
+}
+h5 {
+    text-align: center;
+    color: violet;
+}
+h3 {
+    text-align: center;
+}
+#kuk{
+    width: 100%;
+}

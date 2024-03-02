@@ -1,0 +1,24 @@
+section{
+    height: 100px;
+    width: 100%;
+    background: black;
+    color: white;
+    font-size: 90px;
+    font-weight: bolder;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,black);
+
+}
+section span{
+    display: inline-block;
+    animation: wave 1s linear infinite;
+    animation-delay: calc(0.1s*(var(--item)));
+}
+@keyframes wave {
+    0%,40%,60%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(20px);
+    }
+    
+}

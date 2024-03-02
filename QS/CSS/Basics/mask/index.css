@@ -1,0 +1,35 @@
+
+  
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  video,
+  i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  video {
+    object-fit: cover;
+  }
+  
+  i {
+    font-size: 20vw;
+    font-family: Biko, sans-serif;
+    font-weight: 700;
+    line-height: 100vh;
+    text-transform: uppercase;
+    text-align: center;
+    background: white;
+    mix-blend-mode: screen;
+  }
+  

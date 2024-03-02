@@ -1,0 +1,21 @@
+div p{
+    color: red;
+    text-align: center;
+    
+}
+div>p{
+    color: aqua;
+    text-align: center;
+   
+}
+div+p{
+    color: blue;
+   
+}
+div~p{
+    text-align: center;
+    background-color: aliceblue;
+}
+body{
+    background-color: black;
+}

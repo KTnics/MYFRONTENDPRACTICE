@@ -1,0 +1,7 @@
+/* #p2{
+    display: none;
+} */
+
+#p2{
+   visibility: hidden;
+}

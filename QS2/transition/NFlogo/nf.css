@@ -1,0 +1,16 @@
+.netflix{
+    height: 200px;
+    width: 50px;
+    border-right: 50px solid;
+    border-left: 50px solid;
+    color: red;
+}
+.netflix::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: red;
+    box-shadow: 0px 0px 30px black;
+    transform: skew(22.5deg);
+}

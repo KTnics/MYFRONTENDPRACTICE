@@ -1,0 +1,89 @@
+section{
+    width: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#hero{
+    width: 90%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#ip1{
+    justify-content: space-around;
+}
+#nav{
+    height: 100px;
+    width: 110%;
+    background-color: burlywood;
+    display: flex;
+    gap:50px;
+
+    align-items: center; 
+    text-align: center; 
+    justify-content: center; 
+    border-radius: 20px;
+
+ }
+#nav2{
+   
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+    display: none;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+} 
+div{
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 2px 2px 4px grey;
+}
+p{
+    text-align: center  ;    
+}
+button{
+    margin-left: 120px;
+}
+img{
+    margin-left: 100px;
+}
+section#sec{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.cards{
+    height: auto;
+}
+#btn{
+    color: white;
+    background-color: burlywood;
+    font-family: cursive;
+}
+@media (min-width:848px) and (max-width:661px) {
+    #nav2{
+       
+        height: 100px;
+        width: 100%;
+        background-color: burlywood;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,22 @@
+p::first-line{
+    color: blueviolet;
+}
+p::first-letter{
+    color: yellow;
+    font-size: 100px;
+    font-family: cursive;
+}
+p::selection{
+    background-color: black;
+    color: green;
+}
+p::after{
+    content: "🐰";
+}
+p::before{
+    content: "🐰";
+}
+li::marker{
+    color: red;
+   
+}

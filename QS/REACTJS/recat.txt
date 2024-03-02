@@ -1,0 +1,131 @@
+react js is a java script library wich helps to craete single page applications 
+recat js developed by jordon walkiee in 2013 the person work in facebook the current version of reactjs is 18.2
+develeoped by jordan walkee in 2013 to develope single page application
+
+in javascript---- it we use real dom allocates memory on every change
+in reactjs----it use virtual dom saves memmry
+
+                        dom
+                         |
+                        html
+                        |
+                  -----    ------
+                 head          body
+                  |          -- |----
+                            card
+                              |
+                         img  h1 p icon      
+
+ difrence between virtual dom and real dom
+ 1->real=more memory wastage
+    virtual=no memory wastage
+ 2->real=it works slowly
+     virtual=it works fast
+ 3->real=directlywe can target html 
+     virtual=we cant directly target html
+ 4->real=dom manupulation is expensive
+     virtual=dom manipulation is easy
+ 5->real=
+
+
+ diffrence between reactjs and angularjs
+
+ 1->reactjs=dev by facebook in 2013
+     angularjs=dev by google in 2009
+2->reactjs=easy
+   angularjs=difficult
+3->reactjs=one way direction
+   angularjs=two way binding
+4->reactjs=virtal dom
+    angulkarjs=real dom
+          
+babel=>is a transpiler and compiler
+in reactjs it used to transpil modern js syntax into code that can run in all environment when wruting in react component
+
+*syntax od rectjs 
+function App()
+{
+    return(
+    <div>
+    <h1>hello</h1>
+    </div>
+
+)}
+export default App
+
+
+linking two components 
+1>app.jsx=
+import html from "./html/html"
+function App(){
+    return(
+        <html/>
+
+    )
+}
+export default App
+2>html.jsx
+function Html(){
+    return(
+        <div>
+        html
+        </div>
+    )
+}
+export default Html
+jsx call and without jsx
+1.jsx=
+function app(){
+    return(
+        <div>
+        <h1>
+        
+        this is jsx</h1>
+        </div>
+    )
+}
+withotjsx
+=
+import Rect from 'react';
+function App(){
+    return(
+        React.createElement('div',{id:"main"},
+        React.createElement('section',{},<h1>hello this is without jsx</h1>))
+    )
+}
+
+diffrence html and jsx
+1>html=class
+   jsx=classname
+2>html=onclick
+  jsx=onclick
+  html=paired and unpaired
+  jsx=pairerd   
+
+hooks
+usestate,useeffect,uselayouteffect,usecallback,usememo,useref,usecontext,usereducer,useid,useparam,use
+
+hooks are the new features introduced inre version 16.8 
+before rect hook we are anable to do state and lifecycle method in functional component
+thats why functional components are stateless
+
+use callback=usecallback hook returns memoized callback function 
+usecallback hook only runs when one of its dependecies updated
+this can improve performence 
+we can accept two arguments
+1.callback function
+2.dependency
+
+usememo=usememo hook returns memoized value 
+usememo hok only runs whwn one of its depencies are updated
+it can accept two arguments
+function and dependencie this can improve performence
+
+
+
+state and props difrenece
+1.state we can do it in asame componet
+2.props we can pass from parent components to child component
+1.stae we can modify 
+2.props we cant modify
+1.

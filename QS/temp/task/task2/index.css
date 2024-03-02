@@ -1,0 +1,27 @@
+
+section{
+    height: 100vh;
+    width: 100%;
+    background: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cards{
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 3px 0 5px black;
+    border-radius: 10px;
+    background-color: wheat;
+}
+div img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+}

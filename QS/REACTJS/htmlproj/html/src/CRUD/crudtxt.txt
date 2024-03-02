@@ -1,0 +1,78 @@
+import { useState } from "react"
+import "./crud.css"
+const CRUD=()=>{
+    const[open,setOpen]=useState(false)
+    const[user,setUser]=useState({name:""})
+    const[userData,setUserData]=useState([])
+   
+    function addUser(){
+        setUserData([...userData,user])
+        closeModel()
+        
+    }
+    function handleDelete(index){
+        const d=userData.filter((v,i)=>i!==index)
+        setUserData(d)
+
+    }
+    function openModel(){
+        setOpen(true)
+    }
+    function closeModel(){
+        setOpen(false)
+    }
+
+
+    return(
+        <div className="App">
+            <section>
+                <h1>CRUD</h1>
+                <button onClick={openModel}>AddUSER</button>
+            </section>
+            <hr />
+            <table border={1}>
+                <thead>
+                    <tr>
+                        <td>NAme</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {userData.length>0 && userData.map((user,index)=>{
+                        return(
+                            
+
+                            <tr key={user.name}>
+                                <td>{user.name}</td>
+                                <td>
+                                    <button>upadate</button>
+                                    <button onClick={handleDelete}>remove</button>
+                                </td>
+
+                            </tr>
+                        )
+                    }) }
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td>copyrigt kt nick</td>
+                </tr>
+            </tfoot>
+            </table>
+            {open&&(
+                <main>
+                    <form>
+                        <label htmlFor="name">NAME</label>
+                        <input type="text" value={user.name} placeholder="enter your name" onChange={(e)=>setUser({...user,"name":e.target.value})}/>
+                        <br /><br />
+                        <button onClick={addUser}>submit</button>
+                    </form>
+                </main>
+            )}
+          
+           
+        </div>
+
+    )
+}
+export default CRUD

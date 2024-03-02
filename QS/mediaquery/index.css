@@ -1,0 +1,32 @@
+div{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    display: none;
+}
+@media screen  and (max-width:350px){
+    #b1{
+        display: block;
+    }
+    
+}
+@media (min-width:451px) and (max-width:700px) {
+    #b2{
+        display: block;
+    }
+   
+}
+@media  (min-width:701px) and (max-width:1054px) {
+    #b3{
+        display: block;
+    }
+    
+}
+@media  (min-width:1055px) and (max-width:1350) {
+    #b4{
+        display: block;
+    }
+    
+}

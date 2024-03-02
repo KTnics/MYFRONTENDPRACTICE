@@ -1,0 +1,30 @@
+
+@import url(./components/footer.css);
+@import url(./components/header.css);
+@import url(./components/nav.css);
+@import url(./components/section.css);
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+body{
+    background-color: black;
+}
+p{
+    color: red;
+   
+}
+#p2{
+    color: green;
+
+}
+.p3{
+    
+    color: aqua;
+}
+p,#p2,.p3{
+    text-align: center;
+}
+nav,header,footer,section{
+    text-align: center;
+}
